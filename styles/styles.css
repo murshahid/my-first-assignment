@@ -59,8 +59,6 @@ h1{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  align-items: center;
   padding: 60px;
 }
 .head-contant{
@@ -87,13 +85,12 @@ opacity: 0.7;
 margin: 32px;
 }
 /* first section end */
+
 /* second section start */
 .sector{
   display: flex;
   justify-content: space-between;
   border: 3px solid tomato;
-
-
 }
 
 .sector.part1{
@@ -126,9 +123,6 @@ margin-top: 50px;
 
 }
 
-
-
-
 .btn{
 margin: 30px 0 ;
 width: 110;
@@ -136,3 +130,134 @@ height: 25px;
 }
 
 /* second section end */
+
+/* third section start */
+
+.sector-2{
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid tomato;
+
+
+}
+
+.sector-part2{
+max-width: 600px;
+margin: 20px;
+
+}
+
+.h22{
+font-size: 25px;
+font-weight: 700;
+letter-spacing: 0;
+text-align: left;
+line-height: 36px;
+margin-top: 50px;
+}
+
+.p2{
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-align: left;
+  line-height: 26px;
+
+}
+.image-2{
+  width: 260px;
+  height: 220px;
+  position: relative;
+
+}
+
+.btn-2{
+margin: 30px 0 ;
+width: 110;
+height: 25px;
+}
+/* third section end */
+
+/* fourth section start */
+
+.sector-3{
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid tomato;
+
+}
+
+.sector-part3{
+max-width: 600px;
+margin: 10px;
+
+}
+
+.h23{
+font-size: 25px;
+font-weight: 700;
+letter-spacing: 0;
+text-align: left;
+line-height: 36px;
+margin-top: 50px;
+}
+
+.p3{
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-align: left;
+  line-height: 26px;
+
+}
+.image-3{
+  width: 260px;
+  height: 220px;
+  position: relative;
+
+}
+
+.btn-3{
+margin: 30px 0 ;
+width: 110;
+height: 25px;
+}
+
+/* fourth section end */
+
+/* inspiaration part start */
+
+.video-seen{
+  width: 1080;
+  height: 550px;
+  position: center;
+  flex: none;
+  align-self: stretch;
+  border-radius: 16px;
+  margin: 10px 0px;
+}
+
+/* inspiaration part end */
+
+/* current target part start */
+
+.skills-container{
+display: flex;
+gap: 30px;
+justify-content: flex-start;
+flex-direction: column;
+align-items: center;
+margin-top: 50px;
+padding: 50px;
+border: 3px;
+}
+.skill-description{
+padding: 30px;
+
+}
+
+/* current target part end */
+
+
+
+
