@@ -1,11 +1,7 @@
-html{
-    scroll-behavior: smooth;
-}
 
 .azeret-mono-font {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 *{
@@ -13,10 +9,9 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
-/* banner section style starts from here */
-/*  
+/* banner section style starts */
+  
 .banner-container{
-
 max-width: 100%;
 margin: 0 auto; 
 border: 2px solid red;
@@ -27,54 +22,117 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
-*/
+h1{
+  font-size: 48px;
+  height: 800;
+  text-align: center;
+  letter-spacing: 0;
+}
+.para-text{
+  font-size: 16px;
+  height: 400;
+  text-align: center;
+  letter-spacing: 0;
+  justify-content: center;
+  text-align: center;
+  display: flex;
 
-  
-.banner-container{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+}
+          .banner-container{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
       
 }
-.button-contact{
-      position: static;
-      width: 160px;
-      height: 24px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      padding: 21px 24px 21px 24px;
+.btn-contact{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+/* banner section end */
+
+
+.first-container{
+  margin-top: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  align-items: center;
+  padding: 60px;
+}
+.head-contant{
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
-section{
-        font-size: 48px;
-        height: 800;
-        text-align: center;
-        letter-spacing: 0;
+.para-contant{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px 0px;
 }
 
- /* section one start */
-
-section{
-        display: flex;
-        flex-direction: row;
-        justify-content:center;
-        align-items: center;
+.btn-learn{
+box-sizing: border-box;
+border-color: 1px solid black;
+opacity: 0.7;
+margin: 32px;
 }
-
-.half-1{
-        width: 480px;
-        height: 140px;
-
-
-}
-
-.half-2{
-
+/* first section end */
+/* second section start */
+.sector{
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid tomato;
 
 
 }
 
+.sector.part1{
+max-width: 600px;
+margin: 10px;
 
+}
+
+.h2{
+font-size: 25px;
+font-weight: 700;
+letter-spacing: 0;
+text-align: left;
+line-height: 36px;
+margin-top: 50px;
+}
+
+.p{
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-align: left;
+  line-height: 26px;
+
+}
+.image-1{
+  width: 260px;
+  height: 220px;
+  position: relative;
+
+}
+
+
+
+
+.btn{
+margin: 30px 0 ;
+width: 110;
+height: 25px;
+}
+
+/* second section end */
