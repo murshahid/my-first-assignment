@@ -14,8 +14,8 @@ margin: 0;
 padding: 0;
 }
 /* banner section style starts from here */
+/*  
 .banner-container{
-display: flex;
 
 max-width: 100%;
 margin: 0 auto; 
@@ -27,6 +27,26 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+*/
+
+  
+.banner-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+}
+.button-contact{
+      position: static;
+      width: 160px;
+      height: 24px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 21px 24px 21px 24px;
+}
 
 section{
         font-size: 48px;
@@ -35,49 +55,26 @@ section{
         letter-spacing: 0;
 }
 
-.head-part1{
-            color:rgb(13, 19, 33);
-            font-size: 48px;
-            font-weight: 800;
-            text-align: center;
+ /* section one start */
 
-
+section{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
 }
-.head-part2{
-            color:rgb(13, 19, 33);
-            font-size: 16px;
-            font-weight: 400;
-            text-align: center;
 
-}
-.head-part3{
+.half-1{
+        width: 480px;
+        height: 140px;
 
 
 }
 
+.half-2{
 
 
-.heading-part{
-                font-size: 36px;
-                font-weight: 600;
-                line-height: 48px;
-                letter-spacing: 0;
-                text-align: center;
-                line-height: 80px;
-                
-}
-
-.heading-para{
-                font-size: 16px;
-                font-weight: 400
-                line: spacing 0;
-                text-align: center;
 
 }
-
-
-
-
-
 
 
